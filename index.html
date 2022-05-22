@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="Whey.png">
+	<title>Whey protein</title>
+</head>
+<body>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		header{
+			background-color: black;
+			color: whitesmoke;
+			display: flex;
+			position: fixed;
+			width: 100%;
+			max-height: 60px;
+			z-index: 999;
+			justify-content: space-between;
+		}
+		header h1{
+			width: 100%;
+			
+		}
+		nav a{
+			text-decoration: none;
+		    color: whitesmoke;
+        font-size: 100%;
+		         }
+    header nav{
+    	display: flex;
+    	justify-content: space-between;
+    	padding-right: 2%;
+    	align-items: center;
+    	width: 100%;
+    }
+        nav a:hover{
+        	color: red;
+        }
+		.pic img{
+			width: 75%;
+			height: 75%;
+			margin: 15% 0% 0% ;
+			transform: rotate(25deg);
+		}
+		#intro {
+			background-image: linear-gradient(black,red);
+			width: 100%;
+			padding-top: 5%;
+			display: flex;
+			justify-content: space-between;
+		}
+		.text h1{
+			color: whitesmoke;
+			text-align: center;
+			margin: auto;
+		}
+		#about-us{
+			display: flex;
+			justify-content: space-around;
+			height: 300px;
+			margin-top: 10px;
+		}
+		#about-us hr{
+			height: 50%;
+			margin: auto;
+		}
+		#about-us h1{
+			width: 75%;
+			margin-top: 10%;
+		}
+		#about-us p{
+			margin-top: 10%;
+			margin-left: 3%;
+		}
+		#video {
+			background-color: black;
+			display: flex;
+			width: 100%;
+		  height: 150%;
+		}
+		.video-text {
+			color: whitesmoke;
+			width: 50%;
+			}
+		.vd {
+			width: 50%;
+		}
+		.video-text p{
+			margin-top: 2%;
+			margin-right: 3%;
+		}
+		iframe{
+			width: 100%;
+		}
+		#prices {
+			display: flex;
+			justify-content: space-around;
+			flex-flow: wrap;
+		}
+		.carte {
+			border: 1px solid black;
+			border-radius: 5%;
+			margin: 5%;
+			padding: 3%;
+			width: 300px;
+			height: 100%;
+			cursor: pointer;
+		}
+		.carte strong {
+			display: flex;
+			width: 100%;
+		}
+		.prix {
+			color: red;
+			text-align: center;
+		}
+		.carte:hover {
+			transform: scale(1.1);
+			background-color: black;
+			color: red;
+		}
+		
+		.text h1{
+			margin-top: 30%;
+		}
+	</style>
+ <header>
+ 	<h1>Optimum nutrition</h1>
+ 	<nav >
+ 	   <a href="#about-us">about us</a>
+ 	   <a href="#video">about the product</a>
+ 	   <a href="#prices">prices</a>
+ 	</nav> 	
+ </header>
+ <div id="intro">
+ <div class="text">
+  	<h1>GOLD STANDARD 100% WHEY</h1>
+
+</div>
+ 	<div class="pic">
+ 	<img src="Whey.png">
+ </div>
+ </div>
+ <div id="about-us">
+ 	<h1>Who's Optimum Nutrition ?</h1>
+ 	<hr>
+ <p>Optimum Nutrition, Inc. (ON) is part of the Glanbia global nutrition group and has been setting the Gold Standard in sports nutrition for more than 30 years - helping performance focused athletes achieve their goals.</p>
+</div>
+ <div id="video">
+ 	<div class="video-text">
+ 		<h1>GOLD STANDARD 100% WHEY</h1>
+ 		<p>The Gold Standard 100% Whey is the flagship protein powder of the Optimum Nutrition (ON) brand. It is the latter that allowed ON to differentiate itself and become one of the undisputed market leaders. The Gold Standard range is a seal of quality and attests to the brand's commitment to providing the best to its customers. This whey gold isolate has been around for over 20 years and continues to satisfy its regular users.
+</p>
+ 	</div>
+ 	<div class="vd">
+ <iframe width="450" height="250" src="https://www.youtube.com/embed/Df08fyCTW9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+  </div>
+</div>
+  <div id="prices">
+  	<div class="carte">
+  		<h1 class="prix">370,00 DH</h1>
+  		<hr>
+  		<strong>proteine : <h5>25 G</h5></strong><br>
+  		<strong>BCAAs : <h5>5.5 G</h5> </strong><br>
+  		<strong>Poids : <h5>0.9 KG</h5> </strong>
+  	</div>
+  	<div class="carte">
+  		<h1 class="prix">750,00 DH</h1>
+  		<hr>
+  		<strong>proteine : <h5>25 G</h5></strong><br>
+  		<strong>BCAAs : <h5>5.5 G</h5> </strong><br>
+  		<strong>Poids : <h5>2.27 KG</h5> </strong>
+  	</div>
+  	<div class="carte">
+  		<h1 class="prix">1210,00 DH</h1>
+  		<hr>
+  		<strong>proteine : <h5>25 G</h5></strong><br>
+  		<strong>BCAAs : <h5>5.5 G</h5> </strong><br>
+  		<strong>Poids : <h5>4.5 KG</h5> </strong>
+  	</div>
+  	
+  </div>
+ </body>
+ </html>
